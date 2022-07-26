@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdint.h": "c",
+        "longintrepr.h": "c",
+        "python.h": "c"
+    }
+}

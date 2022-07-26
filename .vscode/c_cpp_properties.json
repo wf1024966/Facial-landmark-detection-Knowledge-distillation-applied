@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:\\Anaconda\\include",
+                "D:\\Anaconda\\Lib\\site-packages\\numpy\\core\\include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c89",
+            "cppStandard": "gnu++98",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "D:/DevC++/Dev-Cpp/MinGW64/bin/g++.exe"
+        }
+    ],
+    "version": 4
+}
