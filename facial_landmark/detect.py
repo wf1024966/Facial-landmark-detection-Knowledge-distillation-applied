@@ -49,7 +49,7 @@ if __name__ == '__main__':
         ret, image = cap.read()
         image_draw = image    
         model = FaceNet(68).cuda()
-        model.load_state_dict(torch.load('./weights/model_9.pth'))
+        model.load_state_dict(torch.load('./weights/teahcer/model_9.pth'))
         
         image = cv2.resize(image, (256, 256))
         image = np.transpose(image, (2, 0, 1))
